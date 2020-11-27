@@ -25,6 +25,9 @@
  
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+  <!--PageClip CSS link-->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     
   <!--Main CSS File -->
   <link href="style.css" rel="stylesheet">
@@ -369,14 +372,14 @@
     <!--project section end-->
 
     <!--Contact section-->
-    <section id='contact' class="contact section-bg">
+      <section id='contact' class="contact section-bg">
       <div class="container">
         <div class="section-title"  data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="120">
           <h2>CONTACT</h2>
         </div>
-        <div class="row mx-auto my-auto">
+        <div class="row">
           <!--col-1 address email phone map -->
-          <div class="col-lg-4 d-flex align-items-stretch mb-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          <div class="col-lg-4 d-flex align-items-stretch my-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="140">
             <div class="info">
               <div class="address">
                 <i class="fa fa-map-marker"></i>
@@ -396,10 +399,34 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.0242488339927!2d82.1821008149509!3d22.08689088543487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a280bc7c2ff6c23%3A0x4412edddb029ad80!2sJobs%20Enclave!5e0!3m2!1sen!2sin!4v1604940988153!5m2!1sen!2sin" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
           </div>
-          <!--col-2 social media icons -->
-          <div class="col-lg-7 social-icon text-center mx-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="140">
-            <h4 class="py-4 ">Contact me🙂</h4><hr>
-            <img src="images/contact.jpg" alt="contact banner" class="img-thumbnail" width="auto">
+          <!--col-2 contact form -->
+          <div class="col-lg-5 info mx-2 my-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="140">
+            <div class="section-title"  data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="140">
+              <h3>CONTACT FORM</h3>
+            </div>
+            <form action="https://send.pageclip.co/qnLaFhcAVVndZtVNOIgDerlPRuqHUKqy" class="pageclip-form" method="post">
+              <div class="form-group">
+                  <label >Name</label>
+                  <input class="form-control" type="text" name='name' placeholder="Your Name..." required> 
+                </div>
+              <div class="form-group">
+                <label >Email</label>
+                <input type="email" class="form-control" name="email" placeholder="Your Email..." required>
+              </div>
+              <div class="form-group">
+                  <label >Phone</label>
+                  <input type="tel" id="phone" name='phone' class="form-control" placeholder="Your Phone Number..." required>
+                </div>
+                <div class="form-group">
+                  <label >Message</label>
+                  <textarea class="form-control" rows="3" id='message' name='message' placeholder="Write your message here..." required ></textarea>
+                </div>
+              <button type="submit" id='btn-contact' class="btn btn-outline-success mt-2 ">Submit</button>
+            </form>
+          </div>
+          <!--col-3 social media icons -->
+          <div class="col-lg-2 social-icon text-center my-2 mx-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="140">
+            <h5 class="py-4">Contact me🙂</h5><hr>
             <a href="https://www.linkedin.com/in/arwaz-khan-bb52a1134/" target="_blank" class="sm-bttn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             <a href="https://github.com/arwazkhan189" target="_blank" class="sm-bttn"><i class="fa fa-github" aria-hidden="true"></i></a>
             <a href="https://instagram.com/iamarwaz" target="_blank" class="sm-bttn"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -446,6 +473,9 @@
 
   <!--jquery easing file-->
   <script src="assets/jquery.easing/jquery.easing.min.js"></script>
+   
+  <!--PageClip form js-->
+  <script src="https://s.pageclip.co/v1/pageclip.js" ></script>
 
   <!--Main JS File -->
   <script src="main.js"></script>
