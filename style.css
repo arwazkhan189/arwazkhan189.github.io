@@ -503,7 +503,28 @@ section {
   background: #7952b3;
   color: #fff;
 }
+/*form part*/
+.contact label{
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact input, .contact textarea {
 
+  border:1px solid #7952b3;
+}
+ 
+.contact  input:focus,.contact textarea:focus {
+  box-shadow: 2px 2px 2px 2px #7952b3 !important ;
+}
+.contact button{
+  border-color:#7952b3 !important ;
+  color: #7952b3 !important;
+  font-weight: bold;
+}
+.contact button:hover{
+  background-color:#7952b3 !important ;
+  color: #fff !important;
+}
 /*social media icon part*/
 .social-icon {
   padding-top: 10px;
