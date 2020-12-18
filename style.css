@@ -60,12 +60,14 @@ body {
 --------------------------------------------------------------*/
 .navbar{
   width:100%;
+  background-color: rgba(0,0,0,0.3);
   position: absolute;
-  padding:10px 20px;
+  padding:5px 10px;
   z-index:999;
   box-shadow:0px 2px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
-  
+
 .nav-item .nav-link{
   font-family:'Raleway', sans-serif;
   font-size:18px;
@@ -121,10 +123,15 @@ body {
   left:0;
   width:100%;
   background-color:rgba(255, 255, 255, 1);
-  padding:5px 20px;
+  padding:5px 10px;
   transition:0.5s;
   animation:scroll 0.6s 1;
 }    
+.navbar-scroll > .navbar-toggler{
+  color: black !important;
+  border: 1px solid black !important;
+  border-radius: 70%;
+}
 
 @keyframes scroll{
   0%{transform:translateY(-100%);}
@@ -135,7 +142,11 @@ body {
   color:#7952b3;
 }
 
-
+.navbar button {
+  color: white !important;
+  border: 2px solid white !important;
+  border-radius: 70%;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -164,7 +175,7 @@ body {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 250px 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
