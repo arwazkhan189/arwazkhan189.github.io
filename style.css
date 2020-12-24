@@ -60,12 +60,18 @@ body {
 --------------------------------------------------------------*/
 .navbar{
   width:100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: #7952b3;
   position: absolute;
   padding:5px 10px;
   z-index:999;
   box-shadow:0px 2px 10px rgba(0,0,0,0.2);
-  border-radius: 10px;
+  border-radius: 20px;
+  margin: 2px 0;
+}
+.navbar .navbar-toggler{
+  color: black !important;
+  border: 1px solid black !important;
+  border-radius: 70%;
 }
 
 .nav-item .nav-link{
