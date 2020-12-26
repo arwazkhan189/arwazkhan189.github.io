@@ -114,7 +114,7 @@ body {
   height:2px;
   transform:scaleX(0);
   transform-origin:left;
-  background-color:#7952b3;
+  background-color:black;
   transition:0.5s;
 }
 
@@ -398,18 +398,7 @@ section {
   background: #fff;
   border: 2px solid #7952b3;
 }
-/*--------------------------------------------------------------
-# certificate
---------------------------------------------------------------*/
-.certificates img{
-  transition: 1s;
-  transform: scale(0.95);
-}
-.certificates img:hover {
-  opacity: 0.5;
-  box-shadow:5px 5px 5px 5px #7952b3;
-  transform: scale(1);
-}
+
 /*--------------------------------------------------------------
 # projects
 --------------------------------------------------------------*/
@@ -637,4 +626,13 @@ section {
 --------------------------------------------------------------*/
 #C-certificates img{
   border: 1px solid #7952b3;
+}
+.certificates img{
+  transition: 1s;
+  transform: scale(0.95);
+}
+.certificates img:hover {
+  opacity: 0.5;
+  box-shadow:5px 5px 5px 5px #7952b3;
+  transform: scale(1);
 }
