@@ -167,11 +167,12 @@ body {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
+  height: auto !important;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 #hero .hero-container {
@@ -246,6 +247,9 @@ section {
   background-image: url("images/text-bg.webp");
   background-position: center;
   -webkit-background-clip:text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
 }
 .section-title h2:after {
   content: '';
@@ -268,12 +272,15 @@ section {
   background-image: url("images/text-bg.webp");
   background-position: center;
   -webkit-background-clip:text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
 }
 .section-title h3:after {
   content: '';
   position: absolute;
   display: block;
-  width: 60px;
+  width: 100px;
   height: 3px;
   background: #7952b3;
   bottom: 0;
