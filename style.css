@@ -18,7 +18,7 @@ body {
     width: 12px ;
     background: #f6f6f7; 
     border-radius: 10px;
-    border: 1px solid #fff ;
+    border: 1px solid transparent ;
 }            
 ::-webkit-scrollbar-thumb {
     border-radius: 10px ;
@@ -167,7 +167,7 @@ body {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
-  height: auto !important;
+  height: 100vh;
   bottom: 0;
   top: 0;
   left: 0;
