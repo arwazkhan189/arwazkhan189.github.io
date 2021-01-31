@@ -17,8 +17,8 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
  
   <!--Lightbox css link-->
-  <link rel="stylesheet" type="text/css" href="assets/lightbox2-dev/dist/css/lightbox.css"/>
-  <link rel="stylesheet" type="text/css" href="assets/lightbox2-dev/dist/css/lightbox.min.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/lightbox2-dev/dist/css/lightbox.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/lightbox2-dev/dist/css/lightbox.min.css"/>
 
   <!--Animate CSS link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -30,11 +30,11 @@
   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     
   <!--Main CSS File -->
-  <link href="style.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
   
   <!--Page title-->
   <title>ARWAZ KHAN | PORTFOLIO</title>
-  <link rel="icon" href="images/icon.jpg" type="image/icon">
+  <link rel="icon" href="./images/icon.jpg" type="image/icon">
    
   <!-- google site verification meta tags -->
   <meta name="google-site-verification" content="JIOcOAR8NTqTj3zze6gohuqwXsf41oSd2-20KHZQnbo" />
@@ -55,7 +55,7 @@
   <!--navbar-->
   <header id="header">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="images/icon.jpg" alt="logo" width='30' style="border-radius: 50%;"></a>
+        <a class="navbar-brand" href="#"><img src="./images/icon.jpg" alt="logo" width='30' style="border-radius: 50%;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-angle-down " aria-hidden="true"></i>
         </button>
@@ -63,7 +63,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link" href="#hero" ><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+              <a class="nav-link" href="#home" ><i class="fa fa-home" aria-hidden="true"></i>Home</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="#about" ><i class="fa fa-user" aria-hidden="true"></i>ABOUT</a>
@@ -86,48 +86,33 @@
   </header>
   <!--navbar end-->
 
-  <!--Hero section-->
-   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+  <!--home section-->
+   <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="home-container" data-aos="fade-in">
       <h1>Arwaz Khan</h1>
       <p>I'm <span class="typejs"></span></p>
     </div>
   </section>
-  <!--hero section end-->
+  <!--home section end-->
 
   <!--main section-->
   <main id='main'>
 
     <!--about section-->
     <section id="about" class="about">
-      <div class="container">
+      <div class="container" >
         <div class="section-title" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
           <h2>ABOUT</h2>
         </div>
+
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-            <img src="images/mypic.jpg" class="img-fluid about-dp" alt="Arwaz's picture">
+            <img src="./images/mypic.jpg" class="img-fluid about-dp" alt="Arwaz's picture">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
             <p class="font-italic">
               Hello ! , I am a second year student in the Department of Computer Science and Engineering at Government Engineering College, Bilaspur, Chhattisgarh, India.
             </p>
-            <div class="row">
-              <div class="col-lg-6" >
-                <ul>
-                  <li><i class="fa fa-angle-right"></i> <strong>Birthday:</strong> 06 October 2001</li>
-                  <li><i class="fa fa-angle-right"></i> <strong>Phone:</strong> <a href="tel:+917240974211" title="Click to call!">+91 7240974211</a></li>
-                  <li><i class="fa fa-angle-right"></i> <strong>City:</strong> <a href="https://www.google.co.in/maps/place/Jobs+Enclave/@22.0868909,82.1821008,17z/data=!3m1!4b1!4m5!3m4!1s0x3a280bc7c2ff6c23:0x4412edddb029ad80!8m2!3d22.0868909!4d82.1842895?shorturl=1" title="Click to see location!" target="_blank">Bilaspur, India</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="fa fa-angle-right"></i> <strong>Age:</strong> <script>document.write(new Date().getFullYear()-2001);</script></li>
-                  <li><i class="fa fa-angle-right"></i> <strong>Degree:</strong> B.Tech (CSE)</li>
-                  <li><i class="fa fa-angle-right"></i> <strong>Email:</strong> <a href="mailto:arwazkhan189@gmail.com" title="Click to mail!">arwazkhan189@gmail.com</a></li>
-                </ul>
-              </div>
-            </div>
             <p>I am always enthusiastic to learn new technologies. I am always trying to create a project what I learned. I am interested in <strong>Python programming</strong>, <strong>Web development</strong>, <strong>Competitive programming</strong>, <strong>Open-source</strong> contribution, <strong>Cyber Security</strong> and many more...<br>
             During Lockdown I learned the basics of web development like HTML5, CSS3, JavaScript, Bootstrap...from many resources, and tried to write a blog (<a href="https://wdforbeginner.blogspot.com/" target="_blank" title="Click!"><strong>www.wdforbeginner.blogspot.com</strong></a>).<br>
             <strong class="pt-4">Thank you for visiting my website.🙌</strong>
@@ -145,25 +130,31 @@
           <h3>SKILLS</h3>
         </div>
         <div class="row justify-content-center align-items-center " >
-          <img src="images/skills_image/python.svg" alt="Python logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-          <img src="images/skills_image/c.svg" alt="C logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="110">
-          <img src="images/skills_image/html5.svg" alt="HTML5 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="120">
-          <img src="images/skills_image/css3.svg" alt="CSS3 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="130">
-          <img src="images/skills_image/js.svg" alt="JavaScript logo" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="140">
-          <img src="images/skills_image/php.svg" alt="PHP logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="130">
-          <img src="images/skills_image/mysql.svg" alt="MYSQL logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="120">
-          <img src="images/skills_image/bootstrap.svg" alt="Bootstrap logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="110">
-          <img src="images/skills_image/git.svg" alt="Git logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <img src="./images/skills_image/python.svg" alt="Python logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <img src="./images/skills_image/c.svg" alt="C logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="110">
+          <img src="./images/skills_image/cpp.svg" alt="C++ logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          <img src="./images/skills_image/html5.svg" alt="HTML5 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          <img src="./images/skills_image/css3.svg" alt="CSS3 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          <img src="./images/skills_image/js.svg" alt="JavaScript logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          <img src="./images/skills_image/php.svg" alt="PHP logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          <img src="./images/skills_image/mysql.svg" alt="MYSQL logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          <img src="./images/skills_image/bootstrap.svg" alt="Bootstrap logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="110">
+          <img src="./images/skills_image/github.svg" alt="GitHub logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
         </div>
-        <div class="section-title pt-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+        <div class="section-title p-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
           <h5>Places Where I Write😊</h5>
         </div>
         <div class="row justify-content-center align-items-center skills-places">
-          <a href="https://wdforbeginner.blogspot.com/" target="_blank" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="140"><img src="images/places_where_i_write_image/blogger.svg" alt="Blogger logo" title="Click!"></a>
-          <a href="https://www.hackerrank.com/arwazkhan189" target="_blank" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="150"><img src="images/places_where_i_write_image/hackerrank.svg" alt="Hackerrank logo" title="Click!"></a>
-          <a href="https://www.codechef.com/users/arwaz189" target="_blank" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="160"><img src="images/places_where_i_write_image/codechef.svg" alt="Codechef logo" title="Click!"></a>
-          <a href="https://codeforces.com/profile/arwazkhan189" target="_blank" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="150"><img src="images/places_where_i_write_image/codeforces.png" alt="Codeforces logo" class="codeforces-logo" title="Click!"></a>
-          <a href="https://dev.to/arwazkhan189" target="_blank" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="140"><img src="images/places_where_i_write_image/dev.svg" alt="Dev logo" title="Click!"></a>
+          <a href="https://wdforbeginner.blogspot.com/" target="_blank" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="140"><img src="./images/places_where_i_write_image/blogger.svg" alt="Blogger logo" title="Click!"></a>
+          
+          <a href="https://www.hackerrank.com/arwazkhan189" target="_blank" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="150"><img src="./images/places_where_i_write_image/hackerrank.svg" alt="Hackerrank logo" title="Click!"></a>
+         
+          <a href="https://dev.to/arwazkhan189" target="_blank" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="140"><img src="./images/places_where_i_write_image/dev.svg" alt="Dev logo" title="Click!"></a>
+
+          <a href="https://www.codechef.com/users/arwaz189" target="_blank" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="160"><img src="./images/places_where_i_write_image/codechef.svg" alt="Codechef logo" title="Click!"></a>
+          
+          <a href="https://codeforces.com/profile/arwazkhan189" target="_blank" data-aos="fade-left" data-aos-easing="ease-in" data-aos-delay="100"><img src="./images/places_where_i_write_image/codeforces.png" alt="Codeforces logo" class="codeforces-logo" title="Click!"></a>
+
         </div>
       </div>
     </section>
@@ -180,7 +171,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
             <div class="btn-download py-4">
-              <a  class="btn btn-outline-secondary" href="Arwaz_khan_Resume.pdf" download>Download Resume</a>
+              <a  class="btn btn-outline-secondary" href="./Arwaz_khan_Resume.pdf" download>Download Resume</a>
             </div>
             <h3 class="resume-title">Education</h3>
             <div class="resume-item ">
@@ -228,8 +219,8 @@
               <h5>September, 2020 - January, 2021</h5>
               <p><em>The Rising People Welfare Society</em></p>
               <p>I was hired as a Web developer in The Rising People Welfare Society <a href='https://www.trpws.com/' target="_blank" style='text-decoration:none;color: black;font-weight: bold; pointer-events: none;' title="Click!" >(www.trpws.com)</a>, Subhas Nagar, Delhi. In this internship, I work with a team and we create the frontend of the Website using HTML, CSS, JavaScript, Bootstrap, and JQuery library. Managing the Github repository of the Website. I learned many things during this internship.<br>
-                <a href="images/certificate_image/30.jpg" data-lightbox="certificate" data-title="Internship Certificate - Web Development at TRPWS" style="color: #7952b3; font-weight:bold;">🔗Internship Certificate</a>
-                <a href="images/certificate_image/31.jpg" data-lightbox="certificate" data-title="Letter of Recommendation - By TRPWS" style="color: #7952b3; font-weight:bold;">🔗Letter of Recommendation</a>
+                <a href="./images/certificate_image/30.jpg" data-lightbox="certificate" data-title="Internship Certificate - Web Development at TRPWS" style="color: #7952b3; font-weight:bold;">🔗Internship Certificate</a>
+                <a href="./images/certificate_image/31.jpg" data-lightbox="certificate" data-title="Letter of Recommendation - By TRPWS" style="color: #7952b3; font-weight:bold;">🔗Letter of Recommendation</a>
               </p>
             </div>
             <div class="resume-item">
@@ -275,7 +266,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/project_image/ccqlogo.jpg" alt="Captain Cricket Quiz logo" style="width:300px;height:300px;">
+                  <img src="./images/project_image/ccqlogo.jpg" alt="Captain Cricket Quiz logo" style="width:300px;height:300px;">
                   <h5>Captain Cricket Quiz</h5>
                 </div>
                 <div class="flip-card-back">
@@ -295,11 +286,11 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/project_image/HID-2020logo.png" alt="HID-2020 logo" style="width:300px;height:300px;">
+                  <img src="./images/project_image/HID-2020logo.png" alt="HID-2020 logo" style="width:300px;height:300px;">
                   <h5>HID-2020</h5>
                 </div>
                 <div class="flip-card-back">
-                  <p class="py-4" style="opacity: 0.7;"><img src="images/project_image/flag.svg" alt='flag' style="width: 30px;"> <b style="text-decoration: underline;">Happy Independance Day 2020</b></p> 
+                  <p class="py-4" style="opacity: 0.7;"><img src="./images/project_image/flag.svg" alt='flag' style="width: 30px;"> <b style="text-decoration: underline;">Happy Independance Day 2020</b></p> 
                   <p>HID 2020 (Happy Independence Day 2020 Animation)  is a Python program built using the turtle module.</p>
                   <div class="card-btn py-2">
                       <a  class="btn btn-outline-secondary" href="https://github.com/arwazkhan189/HID-2020" target="_blank">Go To</a>
@@ -315,7 +306,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/project_image/portfolio.jpg" alt="PORTFOLIO Webite" style="width:300px;height:300px;">
+                  <img src="./images/project_image/portfolio.jpg" alt="PORTFOLIO Webite" style="width:300px;height:300px;">
                   <h5>Portfolio Website</h5>
                 </div>
                 <div class="flip-card-back">
@@ -340,11 +331,11 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/project_image/weatherwebapp.png" alt="Weather Web App interface " style="width:300px;height:300px;">
+                  <img src="./images/project_image/weatherwebapp.png" alt="Weather Web App interface " style="width:300px;height:300px;">
                   <h5>Weather Web App</h5>
                 </div>
                 <div class="flip-card-back"> 
-                  <p class="py-4" style="opacity: 0.7;"><img src="images/project_image/weathericon.png" alt='weather app icon' style="width: 30px;"> <b style="text-decoration: underline;">Weather Web App</b></p>
+                  <p class="py-4" style="opacity: 0.7;"><img src="./images/project_image/weathericon.png" alt='weather app icon' style="width: 30px;"> <b style="text-decoration: underline;">Weather Web App</b></p>
                   <p>A simple weather web app created using HTML, CSS, JavaScript, and openweather API.
                     <br> Code available in <a href="https://github.com/arwazkhan189/Weather-app" target="_blank" style="color:#fff; text-decoration:underline;" title="Click to see!"><i class="fa fa-github"></i>Github</a>.</p>
                   <div class="card-btn py-2">
@@ -361,11 +352,11 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/project_image/horoscopewebapp.jfif" alt="Horoscope Web App icon" style="width:300px;height:300px;">
+                  <img src="./images/project_image/horoscopewebapp.jfif" alt="Horoscope Web App icon" style="width:300px;height:300px;">
                   <h5>Horoscope Web App</h5>
                 </div>
                 <div class="flip-card-back">
-                  <p class="py-4" style="opacity: 0.7;"><img src="images/project_image/horoscopewebapp.jfif" alt='Horoscope web icon' style="width: 30px;">
+                  <p class="py-4" style="opacity: 0.7;"><img src="./images/project_image/horoscopewebapp.jfif" alt='Horoscope web icon' style="width: 30px;">
                      <b style="text-decoration: underline;">Horoscope Web App</b></p> 
                   <p>A simple Horoscope web app created using HTML, CSS, JavaScript, and aztro API.
                     <br> Code available in <a href="https://github.com/arwazkhan189/Horoscope-app" target="_blank" style="color:#fff; text-decoration:underline;" title="Click to see!"><i class="fa fa-github"></i>Github</a>.
@@ -384,7 +375,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/project_image/trpws.png" alt="TRPWS Webite" style="width:300px;height:300px;">
+                  <img src="./images/project_image/trpws.png" alt="TRPWS Webite" style="width:300px;height:300px;">
                   <h5>TRPWS Website</h5>
                 </div>
                 <div class="flip-card-back">
@@ -479,7 +470,7 @@
   <footer id='footer' class="footer py-4">
     <div class="footer-copyright text-center pt-1">
       <i class="fa fa-copyright" aria-hidden="true"> <script>document.write(new Date().getFullYear());</script> | All rights reserved</i><br>
-      <p>Designed with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Arwaz Khan</a></p>
+      <p>Designed with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="./#">Arwaz Khan</a></p>
     </div>
   </footer>
   <!--footer section end-->
@@ -490,7 +481,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     
   <!--top button-->
-  <a href="#" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+  <a href=".#" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
   <!--INITIALIZE AOS-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -500,19 +491,19 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
   <!--lightbox js file-->
-  <script src="assets/lightbox2-dev/dist/js/lightbox-plus-jquery.min.js"></script>
+  <script src="./assets/lightbox2-dev/dist/js/lightbox-plus-jquery.min.js"></script>
 
   <!--jquery easing file-->
-  <script src="assets/jquery.easing/jquery.easing.min.js"></script>
+  <script src="./assets/jquery.easing/jquery.easing.min.js"></script>
    
   <!--PageClip form js-->
   <script src="https://s.pageclip.co/v1/pageclip.js" ></script>
   
-  <!--Main JS File -->
-  <script src="main.js"></script>
-
   <!--Sweet Alert CDN-->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!--Main JS File -->
+  <script src="./main.js"></script>
 
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
