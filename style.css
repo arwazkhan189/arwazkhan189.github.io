@@ -314,6 +314,12 @@ section {
   box-shadow: 5px 10px 8px 10px #888888;
   border-radius:50%;
 }
+/*hiding github graph in small screen*/
+@media only screen and (max-width: 1026px) {
+  #hide-small-div {
+      display: none;
+  }
+}
 /*--------------------------------------------------------------
 #skills and places where I write
 --------------------------------------------------------------*/
