@@ -6,4 +6,4 @@ I created this website using HTML, CSS, JavaScript, Bootstrap, and JQuery plugin
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 <br>
 ## Learn About My Website :- [Click here!](https://dev.to/arwazkhan189/my-portfolio-website-2bhj)
-<img src='https://github.com/arwazkhan189/my-images/blob/main/website%20img.jpg' alt='website home '>
+<img src='https://github.com/arwazkhan189/Portfolio-2/blob/main/website%20img.jpg' alt='website home '>
