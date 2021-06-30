@@ -34,6 +34,9 @@
   
   <!--PageClip CSS link-->
   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+  <!-- flickity css crousel link -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     
   <!--Main CSS File -->
   <link href="./style.css" rel="stylesheet">
@@ -147,18 +150,93 @@
         <div class="section-title" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
           <h3>Tech & Tools</h3>
         </div>
-        <div class="row justify-content-center align-items-center " >
-          <img src="./images/skills_image/python.svg" alt="Python logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-          <img src="./images/skills_image/c.svg" alt="C logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="110">
-          <img src="./images/skills_image/cpp.svg" alt="C++ logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="120">
-          <img src="./images/skills_image/html5.svg" alt="HTML5 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="130">
-          <img src="./images/skills_image/css3.svg" alt="CSS3 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="140">
-          <img src="./images/skills_image/js.svg" alt="JavaScript logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="140">
-          <img src="./images/skills_image/php.svg" alt="PHP logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="130">
-          <img src="./images/skills_image/mysql.svg" alt="MYSQL logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="120">
-          <img src="./images/skills_image/bootstrap.svg" alt="Bootstrap logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="110">
-          <img src="./images/skills_image/github.svg" alt="GitHub logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+        <div class="main-carousel">
+          <div class="carousel-cell">
+            <img src="./images/skills_image/python.svg" alt="Python logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/c.svg" alt="C logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/cpp.svg" alt="C++ logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/html5.svg" alt="HTML5 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/css3.svg" alt="CSS3 logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/js.svg" alt="JavaScript logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/php.svg" alt="PHP logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/mysql.svg" alt="MYSQL logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/bootstrap.svg" alt="Bootstrap logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/github.svg" alt="GitHub logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/git.svg" alt="git logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/java.svg" alt="java logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/kotlin.svg" alt="kotlin logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/xml.svg" alt="xml logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/jquery.svg" alt="jquery logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/json.svg" alt="json logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/django.svg" alt="django logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/flask.svg" alt="flask logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/vscode.svg" alt="vscode logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/android-studio.svg" alt="android logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/canva.svg" alt="canva logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/blender.svg" alt="blender logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/autocad.svg" alt="autocad logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/Scilab.png" alt="scilab logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/unity.svg" alt="unity logo" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/heroku.svg" alt="heroku logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/netlify.svg" alt="netlify logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/skills_image/chrome.svg" alt="chrome logo" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>  
         </div>
+        
         <div class="section-title pt-4" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
           <h5>Places Where I Write😊</h5>
         </div>
@@ -187,11 +265,13 @@
           <p>
           <strong style="text-decoration: underline; font-variant: small-caps;">Career Objective :</strong>  Energetic, technically equipped, goal-oriented IT professional with IT and Business experience looking ahead to motivating transformation and improvement in a company with destructive goals.</p>
         </div>
+        <div class="btn-download float-center" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <a  class="btn btn-outline-secondary" href="./Arwaz_khan_Resume.pdf" download>Download Resume</a>
+        </div>
+        
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
-            <div class="btn-download py-4">
-              <a  class="btn btn-outline-secondary" href="./Arwaz_khan_Resume.pdf" download>Download Resume</a>
-            </div>
+            
             <h3 class="resume-title">Education</h3>
             <div class="resume-item ">
               <h4>Bachelor of technology </h4>
@@ -214,7 +294,7 @@
               <p>I successfully passed the Secondary Exam (10<sup>th</sup>) and scored 84.6%.</p>
             </div>
             
-           <h3 class="resume-title">Training</h3>
+            <h3 class="resume-title">Training</h3>
             <div class="resume-item">
               <h4>Introduction to Python Programming Language</h4>
               <h5>August, 2020 - September, 2020 (2 Weeks)</h5>
@@ -222,25 +302,41 @@
             </div>
            
            <div class="resume-item">
-              <h4>Full Stack Web Development (PHP,MYSQL)</h4>
+              <h4>Full Stack Web Development (PHP, MYSQL)</h4>
               <h5>March, 2021 (10 Days)</h5>
               <p><em>EICT IIT Kanpur</em></p>
             </div>
+
+            <div class="resume-item">
+              <h4>Android App Development (Kotlin, XML)</h4>
+              <h5>July, 2021 - August, 2021 (8 Weeks)</h5>
+              <p><em>Internshala</em></p>
+            </div>
            
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="100"> 
             
-           
+            
             <h3 class="resume-title">Achievements</h3>
             <div class="resume-item">
               <h4>contribution In Hacktoberfest 2020</h4>
             </div>
             <div class="resume-item">
               <h4>5⭐ Badge - 30 Days of Code (Hackerrank)</h4>
-            </div><div class="resume-item">
+            </div>
+            <div class="resume-item">
               <h4>5⭐ Badge - Python (Hackerrank)</h4>
-            </div> 
-            
+            </div>
+            <div class="resume-item">
+              <h4>4⭐ Badge - C (Hackerrank)</h4>
+            </div>
+            <div class="resume-item">
+              <h4>3⭐ Badge - C++ (Hackerrank)</h4>
+            </div>
+            <div class="resume-item">
+              <h4>3⭐ @ CodeChef</h4>
+            </div>
+
             <h3 class="resume-title">Work Experience</h3>
             <div class="resume-item">
               <h4>Web Developer Internship</h4>
@@ -455,7 +551,7 @@
                   <p >YTV-Downloader is a Desktop application to download the YouTube videos . <br> Developed using python modules - tkinter and pytube.
                     <br><br> Source Code available in <a href="https://github.com/arwazkhan189/YTV-Downloader" target="_blank" style="color:#fff; text-decoration:underline;" title="Click to see!"><i class="fa fa-github"></i>Github</a>.</p>
                   <div class="card-btn">
-                      <a  class="btn btn-outline-secondary" href="https://github.com/arwazkhan189/YTV-Downloader" >Download the App</a>
+                      <a  class="btn btn-outline-secondary" href="https://github.com/arwazkhan189/YTV-Downloader/blob/main/YTV-Downloder.rar?raw=true" >Download the App</a>
                   </div>
                 </div>
               </div>
@@ -578,6 +674,9 @@
   
   <!--Sweet Alert CDN-->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- flickity carousels js link- -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
   <!--Main JS File -->
   <script src="./main.js"></script>

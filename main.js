@@ -67,3 +67,13 @@ lightbox.option({
       }
     });
   });
+
+  /*flickity carousel*/
+  $('.main-carousel').flickity({
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    wrapAround: true,
+    autoPlay: 1000,
+    freeScroll: true
+  });
