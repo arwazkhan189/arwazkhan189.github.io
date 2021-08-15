@@ -27,7 +27,7 @@ $('.back-to-top').click(function() {
 
 //typejs animation
 var typed = new Typed('.typejs', {
-    strings: ["CSE Student "+"<img src='./images/skills_image/cse-student.svg' width='30px'>","Python Developer "+"<img src='./images/skills_image/python.svg' width='30px'>","Web Developer "+"<img src='./images/skills_image/web-developer.png' width='30px'>"],
+    strings: ["CSE Student "+"<img src='./images/skills_image/cse-student.svg' width='30px'>","Python Developer "+"<img src='./images/skills_image/python.svg' width='30px'>","Web Developer "+"<img src='./images/skills_image/web-developer.svg' width='30px'>","Android App Developer "+"<img src='./images/skills_image/android-developer.svg' width='30px'>"],
     typeSpeed: 50,
     backSpeed: 50,
     loop:true,
