@@ -290,7 +290,7 @@ section {
   content: '';
   position: absolute;
   display: block;
-  width: 10%;
+  width: 20%;
   height: 3px;
   background: #7952b3;
 
@@ -312,7 +312,7 @@ section {
   height: 300px;
   border: 1px solid rgba(0,0,0,0.2);
   box-shadow: 5px 10px 8px 10px #888888;
-  border-radius:50%;
+  /*border-radius:100%;*/
 }
 /*hiding github graph in small screen*/
 @media only screen and (max-width: 1026px) {
