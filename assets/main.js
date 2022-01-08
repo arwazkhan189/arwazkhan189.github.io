@@ -68,12 +68,22 @@ $(window).on('scroll', function () {
   });
 });
 
-/*flickity carousel*/
-$('.main-carousel').flickity({
+/*flickity carousel - skill section*/
+$('.main-carousel-skill').flickity({
   cellAlign: 'left',
   contain: true,
   pageDots: false,
   wrapAround: true,
   autoPlay: 1000,
+  freeScroll: true
+});
+
+/*flickity carousel - project section*/
+$('.main-carousel-project').flickity({
+  cellAlign: 'left',
+  contain: true,
+  pageDots: false,
+  wrapAround: true,
+  autoPlay: 2000,
   freeScroll: true
 });
