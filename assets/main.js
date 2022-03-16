@@ -87,3 +87,8 @@ $('.main-carousel-project').flickity({
   autoPlay: 2000,
   freeScroll: true
 });
+
+/*Profile Views*/
+function portfolioViews(response) {
+  document.querySelector("#views").textContent = response.value;
+}
