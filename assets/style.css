@@ -324,7 +324,7 @@ section {
 #skills and places where I write
 --------------------------------------------------------------*/
 .skills img{
-  width:50px;
+  width:auto;
   height: 50px;
   margin-right: 50px;
   margin-bottom: 10px;
@@ -368,7 +368,7 @@ section {
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .btn-download .btn{
   color: #7952b3;
