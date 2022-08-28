@@ -1,3 +1,4 @@
 {
-    "screencastMode.onlyKeyboardShortcuts": true
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "liveServer.settings.port": 5501
 }
