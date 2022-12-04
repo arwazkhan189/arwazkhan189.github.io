@@ -1,15 +1,16 @@
 const URL = "https://dev.to/api/articles?username=arwazkhan189";
-fetch(URL).then((response) => {
+fetch(URL)
+  .then((response) => {
     return response.json();
-}).then((resultArray) => {
+  })
+  .then((resultArray) => {
     let dataset = "";
     resultArray.map((data) => {
-        let imageurl = "./assets/images/noImage.png";
-        if (data.cover_image != null)
-            imageurl = data.cover_image;
-        dataset += `<div class="row justify-content-start">
+      let imageurl = "./assets/images/noImage.png";
+      if (data.cover_image != null) imageurl = data.cover_image;
+      dataset += `<div class="row justify-content-start">
         <div class="col-md-5">
-            <img id="cover_image" src="${imageurl}" class="img-fluid">
+            <img id="cover_image" src="${imageurl}" class="img-fluid" loading="lazy">
         </div>
         <div class="col-md-7 ">
             <h2 >${data.title}</h2>
@@ -18,9 +19,10 @@ fetch(URL).then((response) => {
             <a class="btn btn-primary"  href="${data.canonical_url}" target="_blank" role="button">Read More »</a>
         </div>
     </div>
-    <hr>`
+    <hr>`;
     });
     document.getElementById("blog").innerHTML = dataset;
-}).catch((err) => {
+  })
+  .catch((err) => {
     console.log(err);
-})
+  });
