@@ -9,4 +9,4 @@ I created this website using HTML, CSS, JavaScript, Bootstrap, and JQuery plugin
 
 ## Learn About My Website :- [Click here!](https://dev.to/arwazkhan189/my-portfolio-website-2bhj)
 
-<img src='https://github.com/arwazkhan189/arwazkhan189.github.io/blob/main/website%20img.png' alt='website home '>
+<img src='https://github.com/arwazkhan189/arwazkhan189.github.io/blob/main/website%20img.png' alt='website home'>
