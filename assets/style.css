@@ -335,10 +335,11 @@ section {
   background: #7952b3;
 }
 
-.soft-skills li{
+.soft-skills li {
   float: left;
   list-style-type: circle;
   margin-left: 1em;
+  font-weight: bold;
 }
 
 .section-title p {
