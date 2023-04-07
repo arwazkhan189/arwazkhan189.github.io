@@ -359,7 +359,7 @@ section {
 }
 
 .about-dp {
-  height: 300px;
+  height: 380px;
   /*border: 1px solid rgba(0, 0, 0, 0.2);*/
   /*box-shadow: 5px 10px 8px 10px #888888;*/
   /*border-radius:100%;*/
@@ -372,11 +372,11 @@ section {
 }
 
 /*hiding github graph in small screen*/
-@media only screen and (max-width: 1026px) {
+/*@media only screen and (max-width: 1026px) {
   #hide-small-div {
     display: none;
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 #skills and places where I write
