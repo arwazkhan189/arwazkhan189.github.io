@@ -103,7 +103,7 @@ $(".main-carousel-project").flickity({
   freeScroll: true,
 });
 
-/*Profile Views*/
+/*Profile Views
 function portfolioViews(response) {
   document.querySelector("#views").textContent = response.value;
-}
+}*/
