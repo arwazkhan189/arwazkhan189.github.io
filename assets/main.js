@@ -31,7 +31,7 @@ $(".back-to-top").click(function () {
 //typejs animation
 var typed = new Typed(".typejs", {
   strings: [
-    "CSE Student " +
+    "CSE Undergraduate " +
       "<img src='./assets/images/skills_image/cse-student.svg' width='30px'>",
     "Android App Developer " +
       "<img src='./assets/images/skills_image/android-developer.svg' width='30px'>",
