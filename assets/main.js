@@ -29,16 +29,18 @@ $(".back-to-top").click(function () {
 });
 
 //typejs animation
-var typed = new Typed(".typejs", {
-  strings: [
-    "CSE Undergraduate " +
-      "<img src='./assets/images/skills_image/cse-student.svg' width='30px'>",
-    "Android App Developer " +
+/*
+"Android App Developer " +
       "<img src='./assets/images/skills_image/android-developer.svg' width='30px'>",
     "Python Developer " +
       "<img src='./assets/images/skills_image/python.svg' width='30px'>",
     "Web Developer " +
       "<img src='./assets/images/skills_image/web-developer.svg' width='30px'>",
+*/
+var typed = new Typed(".typejs", {
+  strings: [
+    "CSE Undergraduate " +
+    "<img src='./assets/images/skills_image/cse-student.svg' width='30px'>"
   ],
   typeSpeed: 50,
   backSpeed: 50,
