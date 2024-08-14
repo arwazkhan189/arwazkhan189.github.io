@@ -26,3 +26,13 @@ fetch(URL)
   .catch((err) => {
     console.log(err);
   });
+
+  //Navbar Close code
+$(document).ready(function () {
+  $(".navbar-nav a").on("click", function () {
+    if ($(".navbar-toggler").is(":visible")) {
+      $(".navbar-toggler").click();
+    }
+  });
+});
+

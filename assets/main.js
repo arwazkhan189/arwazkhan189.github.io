@@ -30,17 +30,17 @@ $(".back-to-top").click(function () {
 
 //typejs animation
 /*
-"Android App Developer " +
-      "<img src='./assets/images/skills_image/android-developer.svg' width='30px'>",
-    "Python Developer " +
-      "<img src='./assets/images/skills_image/python.svg' width='30px'>",
-    "Web Developer " +
-      "<img src='./assets/images/skills_image/web-developer.svg' width='30px'>",
+"Python Developer " +
+    "<img src='./assets/images/skills_image/python.svg' width='30px'>",
 */
 var typed = new Typed(".typejs", {
   strings: [
-    "CSE Undergraduate " +
-    "<img src='./assets/images/skills_image/cse-student.svg' width='30px'>"
+    "MTech CSE Student | NIT Delhi " +
+    "<img src='./assets/images/NITD_logo.svg' width='30px'>",
+    "Android App Developer " +
+    "<img src='./assets/images/skills_image/android-developer.svg' width='30px'>",
+    "Full Stack Developer " +
+    "<img src='./assets/images/skills_image/web-developer.svg' width='30px'>"
   ],
   typeSpeed: 50,
   backSpeed: 50,
@@ -109,3 +109,12 @@ $(".main-carousel-project").flickity({
 function portfolioViews(response) {
   document.querySelector("#views").textContent = response.value;
 }*/
+
+//Navbar Close code
+$(document).ready(function () {
+  $(".navbar-nav a").on("click", function () {
+    if ($(".navbar-toggler").is(":visible")) {
+      $(".navbar-toggler").click();
+    }
+  });
+});
