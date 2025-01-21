@@ -39,7 +39,7 @@ var typed = new Typed(".typejs", {
     "<img src='./assets/images/NITD_logo.svg' width='30px'>",
     "Android App Developer " +
     "<img src='./assets/images/skills_image/android-developer.svg' width='30px'>",
-    "Full Stack Developer " +
+    "Web Developer " +
     "<img src='./assets/images/skills_image/web-developer.svg' width='30px'>"
   ],
   typeSpeed: 50,
