@@ -29,10 +29,6 @@ $(".back-to-top").click(function () {
 });
 
 //typejs animation
-/*
-"Python Developer " +
-    "<img src='./assets/images/skills_image/python.svg' width='30px'>",
-*/
 var typed = new Typed(".typejs", {
   strings: [
     "MTech CSE'26 | NIT Delhi " +
@@ -40,7 +36,9 @@ var typed = new Typed(".typejs", {
     "Android App Developer " +
     "<img src='./assets/images/skills_image/android-developer.svg' width='30px'>",
     "Web Developer " +
-    "<img src='./assets/images/skills_image/web-developer.svg' width='30px'>"
+    "<img src='./assets/images/skills_image/web-developer.svg' width='30px'>", 
+    "Python Developer" +
+    "<img src='./assets/images/skills_image/python.svg' width='30px'>"
   ],
   typeSpeed: 50,
   backSpeed: 50,
