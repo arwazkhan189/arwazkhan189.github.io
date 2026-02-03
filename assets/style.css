@@ -346,7 +346,7 @@ section {
 .soft-skills li {
   float: left;
   list-style-type: circle;
-  margin-left: 2px;
+  margin-left: 2em;
   font-weight: bold;
 }
 
