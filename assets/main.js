@@ -31,7 +31,7 @@ $(".back-to-top").click(function () {
 //typejs animation
 var typed = new Typed(".typejs", {
   strings: [
-    "iXp Student Intern @ SAP India " +
+    "AI Developer @ SAP India " +
     "<img src='./assets/images/sap.png' width='30px'>",
     "MTech CSE'26 | NIT Delhi " +
     "<img src='./assets/images/NITD_logo.svg' width='30px'>",
